@@ -1,0 +1,18 @@
+SHELLYclouds
+============
+# install the shelly gem
+$ gem install shelly
+# Authenticate your account
+$ shelly login
+
+# Generate default Cloudfile
+$ cd ~/your-app
+$ shelly add
+$ git add Cloudfile
+$ git commit -m "Added Cloudfile"
+
+# Deploy master branch to production
+$ git push shelly master
+
+# Start your cloud
+$ shelly start
